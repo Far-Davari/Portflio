@@ -27,6 +27,7 @@ header nav {
   display: flex;
 }
 
+
 header div {
   margin: 5px 10px;
   background-color: rgb(255, 255, 255, 0.2);
@@ -35,6 +36,11 @@ header div {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
   border-right: 0.1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.15s ease-in-out;
+}
+
+header div:hover {
+  transform: scale(1.05);
 }
 
 .about-banner {
@@ -52,7 +58,7 @@ header div {
     lightpink,
     rgb(234, 232, 232)
   );
-  box-shadow: 0 0 35px rgb(208, 208, 208);
+  box-shadow: 0 0 35px rgba(150, 150, 150, 0.4);
 }
 
 .glass-foreground {
@@ -65,8 +71,7 @@ header div {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 15px 15px 45px rgba(0, 0, 0, 0.2);
-  transition: all 1s ease-in-out;
-  text-shadow: 0 0 20px;
+  transition: all 1s ease-in-out
 }
 
 .glass-foreground:hover {
@@ -102,5 +107,4 @@ footer {
 
 footer div {
   margin: 20px;
- 
 }

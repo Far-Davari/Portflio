@@ -156,7 +156,7 @@ footer div {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   .projects-section {
     grid-template-columns: 1fr 1fr 1fr;
   }

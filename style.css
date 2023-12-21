@@ -129,6 +129,12 @@ header div:hover {
   max-width: 250px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 fieldset {
   display: flex;
   align-items: center;
@@ -143,6 +149,7 @@ fieldset {
   border-right: 1.5px solid rgb(255, 255, 255, 0.4);
   border-radius: 15px;
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  max-width: 850px;
 }
 
 legend {

@@ -18,12 +18,13 @@ header {
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-    45deg,
+    5deg,
     rgb(234, 232, 232),
     lightblue,
     lightpink,
     rgb(234, 232, 232)
   );
+  padding: 7px;
   position: fixed;
   top: 0;
   left: 0;
@@ -44,11 +45,13 @@ header div {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
   border-right: 0.1px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.15s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(5, 155, 224, 0.363);
+  transition: all 0.30s ease-in-out;
 }
 
 header div:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 5px lightcoral;
 }
 
 .about-banner {
@@ -75,6 +78,7 @@ header div:hover {
 
 .glass-foreground:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 5px lightcoral;
 }
 
 .about-banner img {
@@ -107,6 +111,7 @@ header div:hover {
 
 .project-container:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 5px lightcoral;
 }
 
 .projects-section {
@@ -124,14 +129,24 @@ header div:hover {
   max-width: 250px;
 }
 
-footer {
+fieldset {
   display: flex;
   align-items: center;
   justify-content: center;  
   position: relative;
   bottom: 0;
   left: 0;
-  right: 0
+  right: 0;
+  margin: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.405);
+  border-right: 1.5px solid rgb(255, 255, 255, 0.4);
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+  color:rgb(1, 92, 100)
 }
 
 
@@ -139,8 +154,13 @@ footer div {
   margin: 20px;
 }
 
+footer a {
+  text-decoration: none;
+  color: rgb(5, 134, 146);
+}
 
-@media (max-width: 350px) {
+
+@media (max-width: 400px) {
   .projects-section {
     grid-template-columns: 1fr;
   }
@@ -153,6 +173,9 @@ footer div {
   .glass-foreground img {
     margin: 0;
     margin-bottom: 15px;
+  }
+  fieldset {
+    flex-direction: column;
   }
 }
 

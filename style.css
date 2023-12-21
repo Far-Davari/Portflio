@@ -3,14 +3,14 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(
-    160deg,
-    rgb(234, 232, 232),
-    lightblue,
-    lightpink,
-    lightblue,
-    lightpink,
-    rgb(234, 232, 232)
+    -45deg,
+    #e77e5d,
+    #34b0dd,
+    #ce4077,
+    #51ebc7
   );
+  background-size: 300% 300%;
+  animation: gradient 30s ease infinite;
 }
 
 header {
@@ -18,12 +18,13 @@ header {
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-    5deg,
-    rgb(234, 232, 232),
-    lightblue,
-    lightpink,
-    rgb(234, 232, 232)
+    -50deg,
+    #23a6d5,
+    #e73c7e,
+    lightcoral
   );
+  animation: gradient 30s ease infinite;
+  background-size: 200% 200%;
   padding: 7px;
   position: fixed;
   top: 0;
@@ -45,7 +46,7 @@ header div {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
   border-right: 0.1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 3px 3px 10px rgba(5, 155, 224, 0.363);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.172);
   transition: all 0.30s ease-in-out;
 }
 
@@ -195,4 +196,17 @@ footer a {
     width: 100%;
     max-width: 300px;
   }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  
 }

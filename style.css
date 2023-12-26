@@ -17,19 +17,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    -50deg,
-    #23a6d5,
-    #e73c7e,
-    lightcoral
-  );
   animation: gradient 30s ease infinite;
   background-size: 200% 200%;
   padding: 7px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 100;
 }
 
@@ -60,7 +50,6 @@ header div:hover {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin-top: 50px;
   padding: 35px;
 }
 
@@ -89,12 +78,6 @@ header div:hover {
   border-radius: 50%;
   border: 5px solid rgb(255, 255, 255);
   margin-right: 50px;
-}
-
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .project-container {

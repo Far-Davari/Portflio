@@ -80,6 +80,13 @@ header div:hover {
   margin-right: 50px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-container {
   display: flex;
   flex-direction: column;
@@ -104,6 +111,7 @@ header div:hover {
   row-gap: 20px;
   column-gap: 15px;
   padding: 20px;
+  max-width: 900px;
 }
 
 
@@ -137,7 +145,7 @@ fieldset {
 }
 
 legend {
-  color:rgb(1, 92, 100)
+  color:rgb(2, 70, 77)
 }
 
 
@@ -147,7 +155,7 @@ footer div {
 
 footer a {
   text-decoration: none;
-  color: rgb(5, 134, 146);
+  color: rgb(2, 70, 77);
 }
 
 

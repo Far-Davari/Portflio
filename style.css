@@ -45,6 +45,11 @@ header div:hover {
   box-shadow: 0 0 5px lightcoral;
 }
 
+header a {
+  text-decoration: none;
+  color: rgb(2, 70, 77);
+}
+
 .about-banner {
   display: flex;
   align-items: center;
@@ -63,7 +68,7 @@ header div:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 15px 15px 45px rgba(0, 0, 0, 0.2);
-  transition: all 1s ease-in-out
+  transition: all 1s ease-in-out;
 }
 
 .glass-foreground:hover {

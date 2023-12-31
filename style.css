@@ -153,9 +153,18 @@ legend {
   color:rgb(2, 70, 77)
 }
 
-
 footer div {
   margin: 20px;
+  display: ;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media img {
+  width: 35px;
 }
 
 footer a {
@@ -180,6 +189,9 @@ footer a {
   }
   fieldset {
     flex-direction: column;
+  }
+  .social-media {
+    flex-direction: row;
   }
 }
 

@@ -187,7 +187,12 @@ fieldset {
 }
 
 legend {
-  color:rgb(29, 169, 185)
+  color:rgb(29, 169, 185);
+  padding: 6px;
+  margin: 0px 50px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
 }
 
 footer div {
